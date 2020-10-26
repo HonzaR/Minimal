@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_to"
+    app:startDestination="@id/toFragment">
+
+    <fragment
+        android:id="@+id/toFragment"
+        android:name="com.honzar.minimal.ui.to.ToFragment"
+        android:label="fragment_to"
+        tools:layout="@layout/fragment_to" />
+
+</navigation>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!--BASE SPACING-->
+    <dimen name="spacing_tiny">4dp</dimen>
+    <dimen name="spacing_smaller">6dp</dimen>
+    <dimen name="spacing_small">8dp</dimen>
+    <dimen name="spacing_pre_normal">10dp</dimen>
+    <dimen name="spacing_normal">12dp</dimen>
+    <dimen name="spacing_pre_medium">14dp</dimen>
+    <dimen name="spacing_medium">16dp</dimen>
+    <dimen name="spacing_pre_big">18dp</dimen>
+    <dimen name="spacing_big">20dp</dimen>
+    <dimen name="spacing_medium_large">24dp</dimen>
+    <dimen name="spacing_large">32dp</dimen>
+    <dimen name="spacing_up_large">42dp</dimen>
+    <dimen name="spacing_huge">64dp</dimen>
+
+    <!-- BASE TEXT SIZES -->
+    <dimen name="text_pre_minimal">8sp</dimen>
+    <dimen name="text_minimal">10sp</dimen>
+    <dimen name="text_tiny">12sp</dimen>
+    <dimen name="text_smaller">13sp</dimen>
+    <dimen name="text_small">14sp</dimen>
+    <dimen name="text_normal">15sp</dimen>
+    <dimen name="text_medium">16sp</dimen>
+    <dimen name="text_pre_big">17sp</dimen>
+    <dimen name="text_big">18sp</dimen>
+    <dimen name="text_bigger">20sp</dimen>
+    <dimen name="text_pre_biggest">22sp</dimen>
+    <dimen name="text_biggest">24sp</dimen>
+    <dimen name="text_pre_huge">26sp</dimen>
+    <dimen name="text_huge">28sp</dimen>
+    <dimen name="text_huger">30sp</dimen>
+    <dimen name="text_pre_huge_more">32sp</dimen>
+    <dimen name="text_huge_more">34sp</dimen>
+    <dimen name="text_up">60sp</dimen>
+    <dimen name="text_abnormal">128sp</dimen>
+
+    <!-- OTHER FIXED -->
+    <dimen name="button_radius">10dp</dimen>
+    <dimen name="card_view_radius">8dp</dimen>
+    <dimen name="card_view_elevation">10dp</dimen>
+    <dimen name="card_view_stroke_width">1dp</dimen>
+
+    <!-- CHANGEABLE -->
+
+</resources>

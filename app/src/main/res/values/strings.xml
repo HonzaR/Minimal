@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Minimal</string>
+    <string name="minimal_example">Minimal example!</string>
+
+    <string name="menu_main_from">From</string>
+    <string name="menu_main_great">Great</string>
+    <string name="menu_main_idea">Idea</string>
+    <string name="menu_main_to">To</string>
+    <string name="menu_main_action">Action</string>
+</resources>

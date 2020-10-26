@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/green</color>
+    <color name="colorPrimaryDark">@color/green_dark</color>
+    <color name="colorSecondary">@color/gray</color>
+    <color name="colorAccent">@color/gray</color>
+
+    <!-- COMPONENTS COLORS -->
+    <color name="windowBackground">@color/white</color>
+
+    <color name="bottom_bar_icon_inactive">@color/gray_dark</color>
+    <color name="bottom_bar_icon_active">@color/green</color>
+
+    <!-- TEXT COLORS -->
+    <color name="textColorPrimaryLight">@color/white</color>
+    <color name="textColorPrimaryDark">@color/gray_dark</color>
+    <color name="textColorSecondaryDark">@color/gray_light</color>
+
+    <!-- PROJECT COLORS -->
+    <color name="green">#00E676</color>
+    <color name="green_dark">#00C853</color>
+    <color name="green_light">#69F0AE</color>
+    <color name="green_lighter">#B9F6CA</color>
+    <color name="green_15">#2600E676</color>
+    <color name="green_25">#4000E676</color>
+    <color name="green_50">#8000E676</color>
+    <color name="green_75">#BF00E676</color>
+    <color name="green_90">#E600E676</color>
+
+    <color name="gray">#e0e0e0</color>
+    <color name="gray_dark">#aeaeae</color>
+    <color name="gray_light">#F5F5F5</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="red">#FFCCBC</color>
+    <color name="red_dark">#FF5722</color>
+    <color name="red_light">#BF360C</color>
+
+    <color name="blue">#B3E5FC</color>
+    <color name="blue_dark">#03A9F4</color>
+    <color name="blue_light">#01579B</color>
+
+</resources>

@@ -1,0 +1,414 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@style/Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/windowBackground</item>
+        <item name="android:buttonStyle">@style/Widget.Button</item>
+        <item name="android:dialogTheme">@style/MyDialogTheme</item>
+        <item name="android:datePickerStyle">@style/MyDatePicker</item>
+    </style>
+
+    <style name="Widget" />
+
+    <!-- TEXT -->
+
+    <style name="Widget.Text" />
+
+    <style name="Widget.Text.Link">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+    </style>
+
+    <style name="ThemeColorControlCold">
+        <item name="colorControlHighlight">@color/green</item>
+    </style>
+
+    <style name="Widget.Text.Link.RippleCold">
+        <item name="theme">@style/ThemeColorControlCold</item>
+    </style>
+
+    <style name="MenuItem" parent="Widget.MaterialComponents.Button.TextButton" />
+
+    <style name="MenuItem.Button">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:padding">@dimen/spacing_normal</item>
+    </style>
+
+    <style name="Widget.Text.Link.Medium">
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="Widget.Text.Heading1">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">32sp</item>
+    </style>
+
+    <style name="Widget.Text.Heading1.Colored">
+        <item name="android:textColor">@color/green_50</item>
+    </style>
+
+    <style name="Widget.Text.Heading1.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Widget.Text.Heading2">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Widget.Text.Heading2.Dark">
+        <item name="android:textColor">@color/textColorPrimaryDark</item>
+    </style>
+
+    <style name="Widget.Text.Heading2.Dark.Thin">
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="Widget.Text.Heading2.Light">
+        <item name="android:textColor">@color/textColorPrimaryLight</item>
+    </style>
+
+    <style name="Widget.Text.Heading3">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Widget.Text.Heading3.Dark">
+        <item name="android:textColor">@color/textColorPrimaryDark</item>
+    </style>
+
+    <style name="Widget.Text.Heading3.Dark.Thin">
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="Widget.Text.Heading3.Light">
+        <item name="android:textColor">@color/textColorPrimaryLight</item>
+    </style>
+
+    <style name="Widget.Text.Small">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="Widget.Text.Mid">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Widget.Text.Mid.Dark">
+        <item name="android:textColor">@color/textColorPrimaryDark</item>
+    </style>
+
+    <style name="Widget.Text.Mid.Dark.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Widget.Text.Body">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="Widget.Text.Body.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Widget.Text.Body.Light">
+        <item name="android:textColor">@color/textColorPrimaryLight</item>
+    </style>
+
+    <style name="Widget.Text.Body.Dark">
+        <item name="android:textColor">@color/textColorPrimaryDark</item>
+    </style>
+
+    <style name="Widget.Text.Body.Red">
+        <item name="android:textColor">@color/red_dark</item>
+    </style>
+
+    <style name="Widget.Text.Body.Blue">
+        <item name="android:textColor">@color/blue</item>
+    </style>
+
+    <style name="Widget.Text.Body.SecondaryDark">
+        <item name="android:textColor">@color/textColorSecondaryDark</item>
+    </style>
+
+    <style name="Widget.Text.Body.Bold.Light">
+        <item name="android:textColor">@color/textColorPrimaryLight</item>
+    </style>
+
+    <style name="Widget.Text.Body.Bold.Dark">
+        <item name="android:textColor">@color/textColorPrimaryDark</item>
+    </style>
+
+    <style name="Widget.Text.Body.Bold.SecondaryDark">
+        <item name="android:textColor">@color/textColorSecondaryDark</item>
+    </style>
+
+    <style name="Widget.Text.Description">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">11sp</item>
+    </style>
+
+    <style name="Widget.Text.Description.Light">
+        <item name="android:textColor">@color/textColorPrimaryLight</item>
+    </style>
+
+    <style name="Widget.Text.Description.Dark">
+        <item name="android:textColor">@color/textColorPrimaryDark</item>
+    </style>
+
+    <style name="Widget.Text.Description.SecondaryDark">
+        <item name="android:textColor">@color/textColorSecondaryDark</item>
+    </style>
+
+    <!-- INPUT -->
+
+    <style name="Widget.EditText">
+        <item name="android:textColor">@color/textColorPrimaryDark</item>
+    </style>
+
+    <style name="Widget.EditText.LikeText">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="Widget.EditText.SingleLine">
+        <item name="android:maxLines">1</item>
+        <item name="android:minLines">1</item>
+        <item name="android:lines">1</item>
+    </style>
+
+    <style name="Widget.EditText.SingleLine.Email">
+        <item name="android:inputType">textEmailAddress</item>
+    </style>
+
+    <style name="Widget.EditText.SingleLine.Name">
+        <item name="android:inputType">textCapWords</item>
+    </style>
+
+    <style name="Widget.EditText.SingleLine.Name.First">
+        <item name="android:inputType">textCapWords</item>
+    </style>
+
+    <style name="Widget.EditText.SingleLine.Name.Surname">
+        <item name="android:inputType">textCapWords</item>
+    </style>
+
+    <style name="Widget.EditText.SingleLine.Phone">
+        <item name="android:inputType">phone</item>
+    </style>
+
+    <style name="Widget.EditText.SingleLine.Password">
+        <item name="android:inputType">textPassword</item>
+    </style>
+
+    <!-- BUTTON -->
+
+    <style name="Widget.Button" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">@dimen/button_radius</item>
+        <item name="android:padding">18dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Widget.Button.Primary">
+        <item name="backgroundTint">@drawable/button_primary</item>
+        <item name="android:textColor">@color/textColorPrimaryLight</item>
+    </style>
+
+    <style name="Widget.Button.Accent">
+        <item name="backgroundTint">@color/colorAccent</item>
+        <item name="android:textColor">@color/textColorPrimaryLight</item>
+    </style>
+
+    <style name="Widget.Button.Disabled">
+        <item name="android:enabled">false</item>
+        <item name="backgroundTint">@color/gray</item>
+        <item name="android:textColor">@color/textColorPrimaryLight</item>
+        <item name="iconPadding">@dimen/spacing_medium</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">start|center_vertical</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="Widget.Button.Transparent" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="cornerRadius">@dimen/button_radius</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Widget.Button.Transparent.SmallText">
+        <item name="android:minHeight">0dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="Widget.Button.Primary.Centered">
+        <item name="iconPadding">@dimen/spacing_medium</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="Widget.Button.Primary.LowerCase">
+        <item name="iconPadding">@dimen/spacing_medium</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">start|center_vertical</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="Widget.Button.Primary.LowerCase.Centered">
+        <item name="iconPadding">@dimen/spacing_medium</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="Widget.Button.Disabled.LowerCase">
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="Widget.Button.Disabled.LowerCase.Centered">
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Widget.Button.Disabled.Centered">
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- IMAGE BUTTON -->
+
+    <style name="Widget.ImageButton" />
+
+    <style name="Widget.ImageButton.Transparent">
+        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
+    </style>
+
+    <!-- CARD -->
+
+    <style name="Widget.CardView" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">@dimen/card_view_radius</item>
+    </style>
+
+    <style name="Widget.CardView.Stroke">
+        <item name="strokeColor">@color/green_25</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="elevation">0dp</item>
+        <item name="cardElevation">0dp</item>
+        <item name="cardBackgroundColor">@color/green_lighter</item>
+    </style>
+
+    <style name="Widget.CardView.Stroke.ColorLess">
+        <item name="strokeColor">@color/gray_light</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="elevation">0dp</item>
+        <item name="cardElevation">0dp</item>
+    </style>
+
+    <style name="Widget.CardView.Stroke.ColorLess.White">
+        <item name="cardBackgroundColor">@android:color/white</item>
+    </style>
+
+    <style name="Widget.CardView.Stroke.Empty">
+        <item name="cardBackgroundColor">@android:color/white</item>
+    </style>
+
+    <style name="Widget.CardView.Elevated">
+        <item name="cardElevation">@dimen/card_view_elevation</item>
+        <item name="cardBackgroundColor">@color/windowBackground</item>
+    </style>
+
+    <!-- ALERT -->
+
+    <style name="AlertDialogTheme" parent="AppTheme">
+        <item name="buttonBarNegativeButtonStyle">@style/NegativeButtonStyle</item>
+        <item name="buttonBarPositiveButtonStyle">@style/PositiveButtonStyle</item>
+        <item name="buttonBarNeutralButtonStyle">@style/NeutralButtonStyle</item>
+    </style>
+
+    <style name="NegativeButtonStyle" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">@color/green</item>
+    </style>
+
+    <style name="PositiveButtonStyle" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">@color/green</item>
+    </style>
+
+    <style name="NeutralButtonStyle" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">@color/green</item>
+    </style>
+
+    <!-- DIALOG -->
+
+    <style name="MyDialogTheme" parent="android:Theme.Material.Dialog.Alert">
+        <item name="android:datePickerStyle">@style/MyDatePicker</item>
+    </style>
+
+    <style name="MyDatePicker" parent="android:Widget.Material.DatePicker">
+        <item name="android:datePickerMode">spinner</item>
+    </style>
+
+    <!-- BTS -->
+
+    <style name="BottomSheetDialog" parent="Theme.MaterialComponents.Light.BottomSheetDialog">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+    </style>
+
+    <style name="RoundedBottomSheetDialog" parent="@style/ThemeOverlay.MaterialComponents.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/RoundedBottomSheet</item>
+    </style>
+
+    <style name="RoundedBottomSheet" parent="Widget.MaterialComponents.BottomSheet">
+        <item name="shapeAppearanceOverlay">@style/RoundedShapeAppearanceBottomSheetDialog</item>
+    </style>
+
+    <style name="RoundedShapeAppearanceBottomSheetDialog">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">16dp</item>
+        <item name="cornerSizeTopLeft">16dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+    </style>
+
+    <!-- DIVIDERS -->
+
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:background">@color/gray_light</item>
+    </style>
+
+    <style name="Divider.Thin">
+        <item name="android:layout_height">1px</item>
+    </style>
+
+    <style name="Divider.Thick">
+        <item name="android:layout_height">1dp</item>
+    </style>
+
+    <!-- BOTTOM NAV MENU -->
+
+    <style name="BottomNavigationViewTextStyle">
+        <item name="android:fontFamily">@font/pacifico</item>
+    </style>
+
+</resources>
